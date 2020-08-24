@@ -1,4 +1,3 @@
 # LaterView
 
-A description of this package.
-# LaterView
+Create a View Later.
