@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         view.embed {
             UIView.later { later in
-                return later
+                later
                     .fetch(url: URL(string: "https://jsonplaceholder.typicode.com/todos/1")!)
                     .flatMap { data, response, error in
                         if let error = error {
